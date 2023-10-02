@@ -26,6 +26,7 @@ int main(int argc, const char** argv)
 		cv::imshow(winTitle, gray);
 
 		if (cv::waitKey(1) == 'q') {
+			std::cout << "Exit catching image" << std::endl;
 			break;
 		}
 	}
