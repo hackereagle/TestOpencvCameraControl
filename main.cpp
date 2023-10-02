@@ -3,12 +3,6 @@
 
 int main(int argc, const char** argv)
 {
-	// std::cout << "Hello World" << std::endl;
-	// cv::Mat img = cv::imread("/Users/sclin/sclinWorkDirectory/projects/TestingImages/lena_gray.bmp", cv::IMREAD_GRAYSCALE);
-	// cv::namedWindow("Test", cv::WINDOW_NORMAL);
-	// cv::imshow("Test", img);
-	// cv::waitKey(0);
-
 	cv::VideoCapture cap(0);
 	if (!cap.isOpened()) {
 		std::cout << "Cannot open camera" << std::endl;
